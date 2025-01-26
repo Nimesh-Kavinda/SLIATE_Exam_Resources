@@ -54,3 +54,11 @@ nav{
     background-color: red;
     cursor: not-allowed  !important;
 }
+
+.card img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    padding: 20px;
+    border-radius: 5%;
+}                                                                           
