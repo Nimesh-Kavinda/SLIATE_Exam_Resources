@@ -49,3 +49,8 @@ nav{
     margin-top: 10px;
     width: 350px;
 }
+
+.btn-group button:disabled{
+    background-color: red;
+    cursor: not-allowed  !important;
+}
