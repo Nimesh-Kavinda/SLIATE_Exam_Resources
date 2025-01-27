@@ -51,7 +51,7 @@ nav{
 }
 
 .btn-group button:disabled{
-    background-color: red;
+    background-color: red ; 
     cursor: not-allowed  !important;
 }
 
