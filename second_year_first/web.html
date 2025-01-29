@@ -46,21 +46,20 @@
       </nav>
 
 
-      
       <div class="container mt-5 text-center">
-        <h2 class="fw-bold fs-1">HNDIT 3<sup>rd</sup> Semester Subjects</h2>
-        <p class="text-center fs-5 p-2 mt-4 bg-body-tertiary">We have compiled a comprehensive list of past papers, short notes, and other resources to help you excel in your <span class="text-primary"> SLIATE HNDIT Third Semester</span> studies. <span class="text-primary fw-bold">Click on the links</span> below to access Subject materials and start preparing for your exams!</p>
+        <h2 class="fw-bold fs-1">Web Design</h2>
+        <p class="text-center fs-5 p-2 mt-4 bg-body-tertiary"><span class="text-primary fw-bold">Click on the links</span> below to Downlord related materials.</p>
       </div>
 
       <div class="conatiner text-center">
       <div class="btn-group-vertical text-center btn-group">
-        <a href="./dsa.html"><button type="button" class="btn btn-primary mt-2 p-3 btn-lg">Data Structure and Algorithem</button></a>
-        <a href="./dbms.html"><button type="button" class="btn btn-secondary mt-2 p-3 btn-lg">Database Manegment Systems</button></a>
-        <a href="./ics.html"><button type="button" class="btn btn-primary mt-2 p-3 btn-lg">Information & Computer Security</button></a>
-        <a href="./oop.html"><button type="button" class="btn btn-secondary mt-2 p-3 btn-lg">Object Oriented Programming</button></a>
-        <a href="./os.html"><button type="button" class="btn btn-primary mt-2 p-3 btn-lg">Opareting Systems</button></a>
-        <a href="./web.html"><button type="button" class="btn btn-secondary mt-2 p-3 btn-lg">Web Design</button></a>
-        <a href="./stat.html"><button type="button" class="btn btn-primary mt-2 p-3 btn-lg">Statistic for IT</button></a>
+        <a href="./materials/web/full.pdf" download="full_note_WEB.pdf"><button type="button" class="btn btn-primary mt-2 p-3 btn-lg" onclick="showAlert()">Lecture Notes</button></a>
+        <a href="./materials/web/short.pdf" download="short_note_WEB"><button type="button" class="btn btn-secondary mt-2 p-3 btn-lg" onclick="showAlert()">Short Notes</button></a>
+        <a href="./materials/web/past1.pdf" download="past_paper_WEB_2022.pdf"><button type="button" class="btn btn-primary mt-2 p-3 btn-lg" onclick="showAlert()" >Past Paper(2022)</button></a>
+        <a href="./materials/web/past2.pdf" download="past_Paper_WEB_2023.pdf"><button type="button" class="btn btn-secondary mt-2 p-3 btn-lg" onclick="showAlert()">Past Paper(2023)</button></a>
+        <a href="#"><button type="button" class="btn btn-primary mt-2 p-3 btn-lg" disabled onclick="showAlert()">Model Paper</button></a>
+        <a href="./materials/web/exercises.pdf" download="PHP_All_Exercises.pdf"><button type="button" class="btn btn-secondary mt-2 p-3 btn-lg" onclick="showAlert()">Exercises</button></a>
+
       </div>
     </div>
 
@@ -137,7 +136,20 @@
         </div>
       
       </footer>
-    
+      
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+      <script>
+        function showAlert() {
+          Swal.fire({
+            title: "Downloaded!",
+            text: "The file has been downloaded.",
+            icon: "success",
+            confirmButtonText: "Close",
+          });
+        }
+      </script>
+
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     </body>
   </html>
