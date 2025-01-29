@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebExpert - Exam Help</title>
+    <link rel="icon" type="image/x-icon" href="../images/title.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/v4-shims.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+  </head>
+  <body>
+
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand me-2" href="#">
+            <i class="fa-brands fa-wordpress fs-1"></i>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarButtonsExample"
+            aria-controls="navbarButtonsExample"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarButtonsExample">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link fs-3" href="#">WebExpert</a>
+              </li>
+            </ul>
+            <div class="d-flex align-items-center">
+              <button type="button" class="btn btn-primary me-3" disabled>Developed By</button>
+              <a class="btn btn-dark px-3" href="https://github.com/Nimesh-Kavinda" role="button">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+      <div class="container mt-5 text-center">
+        <h2 class="fw-bold fs-1">IT Project Management</h2>
+        <p class="text-center fs-5 p-2 mt-4 bg-body-tertiary"><span class="text-primary fw-bold">Click on the links</span> below to Downlord related materials.</p>
+      </div>
+
+      <div class="conatiner text-center">
+      <div class="btn-group-vertical text-center btn-group">
+        <a href="./materialsitpm/full.pdf" download="full_note_ITPM.pdf"><button type="button" class="btn btn-primary mt-2 p-3 btn-lg"  onclick="showAlert()">Lecture Notes</button></a>
+        <a href="./materialsitpm/short.pdf"  download="Short_note_ITPM.pdf"><button type="button" class="btn btn-secondary mt-2 p-3 btn-lg"  onclick="showAlert()">Short Notes</button></a>
+        <a href="./materials/itpm/past1.pdf" download="past_paper_ITPM_2022.pdf"><button type="button" class="btn btn-primary mt-2 p-3 btn-lg" onclick="showAlert()" >Past Paper(2022)</button></a>
+        <a href="#"><button type="button" class="btn btn-primary mt-2 p-3 btn-lg" disabled onclick="showAlert()">Model Paper</button></a>
+      </div>
+    </div>
+
+      <footer class="bg-body-tertiary text-center mt-5">
+     
+        <div class="container p-4 pb-0">
+        
+          <section class="mb-4">
+          
+            <a
+            data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #3b5998;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+      
+         
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #55acee;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-twitter"></i
+            ></a>
+      
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #dd4b39;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-google"></i
+            ></a>
+      
+            
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #ac2bac;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #0082ca;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #333333;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+         
+        </div>
+       
+      
+       
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2025 Copyright:
+          <a class="text-body" href="https://github.com/Nimesh-Kavinda">Nimesh-Kavinda</a>
+        </div>
+      
+      </footer>
+      
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+      <script>
+        function showAlert() {
+          Swal.fire({
+            title: "Downloaded!",
+            text: "The file has been downloaded.",
+            icon: "success",
+            confirmButtonText: "Close",
+          });
+        }
+      </script>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+  </html>
