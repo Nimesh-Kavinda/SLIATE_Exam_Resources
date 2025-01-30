@@ -7,7 +7,7 @@ gsap.from('.btn-group a', {
 });
 
 gsap.from('.pic_innertext', {
-    duration: 1,
+    duration: 4,
     x: -100,
     opacity: 0,
     stagger: 0.4,
@@ -29,7 +29,7 @@ gsap.fromTo(".welcome_section",
 
 gsap.fromTo(".welcome_section span", 
     { color: "#000", scale: 1 }, 
-    { color: "#007bff", scale: 1.2, duration: 1, ease: "elastic.out(1,0.3)", 
+    { color: "#007bff", scale: 1.2, duration: 2, ease: "elastic.out(1,0.3)", 
       scrollTrigger: {
         trigger: ".welcome_section",
         start: "top 80%"
