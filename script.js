@@ -17,7 +17,7 @@ gsap.from('.pic_innertext', {
 
 gsap.fromTo(".welcome_section", 
     { opacity: 0, y: 50, scale: 0.9 }, 
-    { opacity: 1, y: 0, scale: 1, duration: 1.5, ease: "power4.out",
+    { opacity: 1, y: 0, scale: 1, duration: 4, ease: "power4.out",
       scrollTrigger: {
         trigger: ".welcome_section",
         start: "top 80%",
