@@ -1,4 +1,4 @@
-# SLIATE HNDIT Exam Resources Website
+ # SLIATE HNDIT Exam Resources Website
 
 This website provides a comprehensive collection of study materials for the **SLIATE HNDIT** course, including **short notes, past papers, model papers, and lecture materials**. Built using **HTML, CSS, and JavaScript**, it aims to help students easily access exam resources.
 
